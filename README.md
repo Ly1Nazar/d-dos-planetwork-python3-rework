@@ -1,4 +1,4 @@
-# WI-FI D-Dos
+# D-Dos
 <hr>
 Rework of Planetwork-DDOS author: https://github.com/Hydra7/Planetwork-DDOS
 added a switch for number of packages sent and fixed the use via python3 
@@ -7,11 +7,9 @@ added a switch for number of packages sent and fixed the use via python3
 <p>1)&nbsp;open cmd</p>
 <p>python planet.py &lt;local ip of device&gt; &lt;open port of router&gt; &lt;number of packages&gt;</p>
 <p>2)&nbsp; &lt;local ip of device&gt; usually = 192.168.0.1 / 192.168.1.1 &emsp;check via "ipconfig"</p>
-<p>3)&nbsp;get router's open port:</p>
-    <p>&emsp;&emsp;&emsp;3a)&nbsp;get &lt;router ip&gt via "ipconfig" in cmd</p>
-    <p>&emsp;&emsp;&emsp;3b)&nbsp;nmap &lt;router ip&gt;</p>
-    <p>&emsp;&emsp;&emsp;3c)&nbsp;&lt;router ip&gt; is requested using "ipconfig" in cmd </p>
-    <p>&emsp;&emsp;&emsp;3d)&nbsp;choose one of the open ports</p>
+<p>3)&nbsp;get website ip and open port:</p>
+    <p>&emsp;&emsp;&emsp;3a)&nbsp;get &lt;target ip&gt via nmap for i.e. type in cmd: nmap example.com</p>
+    <p>&emsp;&emsp;&emsp;3d)&nbsp;in summary choose one of the open ports</p>
 <p>4)&nbsp;and choose the number of packets number which will be multiplied by 1000</p>
 <h4>
 <p>command in cmd will look like:</p></h4>
