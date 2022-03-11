@@ -2,17 +2,7 @@ import time
 import socket
 import random
 import sys
-"""
-python planet.py <local ip of device> <open port of router> <number of packages>
-local addr = 192.168.0.1 / 192.168.1.1
-get router open port:
-    nmap <ip of router>
-    <ip of router> is requested using "ipconfig" in cmd
-    choose one of open ports
-and choose the number of packets
-command in cmd will look like:
-python planet.py 192.168.0.1 80 99
-"""
+
 def usage():
     print("Command: " + sys.argv[0] + " <ip> <port> <packet>")
 
